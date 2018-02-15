@@ -1,9 +1,19 @@
 git config --global user.name "rana"
 git config --global user.email "ranaatalaat@hotmail.com"
-
 cd Desktop
 cd sprint
 git init
-
+git add .
+git commit -m "all files added"
+git rm Branchesinanutshell.txt
+git log
+git checkout 3c76b7b7 -- Branchesinanutshell.txt
+git commit -m "after restoring the deleted file"
 git remote add origin https://github.com/RanaTalaat/Project.git
 git push -u origin master
+git add .
+git commit -m "after adding the READMME.MD file"
+git checkout master
+git merge ReadMe
+git add.
+git commit -m "after finishing AllMyCommands text"
