@@ -1,0 +1,9 @@
+git config --global user.name "rana"
+git config --global user.email "ranaatalaat@hotmail.com"
+
+cd Desktop
+cd sprint
+git init
+
+git remote add origin https://github.com/RanaTalaat/Project.git
+git push -u origin master
